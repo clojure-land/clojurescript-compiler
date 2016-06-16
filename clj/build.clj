@@ -3,6 +3,6 @@
 (def compiler-options {:output-to "compiled.js"
                        :source-map "compiled.js.map"
                        :output-dir "out"
-                       :optimizations :simple})
+                       :optimizations :advanced})
 
 (cljs/build "cljs" compiler-options)
